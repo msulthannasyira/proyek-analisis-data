@@ -8,6 +8,7 @@ pastikan python sudah terinstall pada komputer anda
 ```
 cd proyek-analisis-data-main
 pip install -r requirements.txt
+pip install streamlit 
 ```
 
 ### Direktori Python
@@ -18,5 +19,5 @@ cd dashboard
 
 ## Run python
 ```
-python dashboard.py
+python -m streamlit run dashboard.py
 ```
